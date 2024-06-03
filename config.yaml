@@ -1,0 +1,35 @@
+
+ads:
+  organizationurl: 'https://tfs.devopshub.cn/leansoft'
+  personalaccesstoken: 'xxxxxxxx'      #
+  projectname: 'ProjectManagement'
+  api_version: '6.0'
+  iterationscount: 6          #默认返回迭代数量
+
+productitem:
+  title: "中关村银行"
+  areapath: "ProjectManagement\\中关村银行\\中关村2023年"   #ProjectManagement\中关村银行\中关村2023年  ProjectManagement\\SmartIDE
+  state: "完成"
+
+task:
+  assignedto: "刘嘉宁"
+  originalestimate: "8"   #初始估计
+  completedwork: "8"      #已完成工作
+  worktype: "客户"         #工时类型    客户,内部
+  billablestatus: "可收费" #工时收费状态  可收费,已免除,已收费
+  travel: "否"        #出差
+  travellocation: ""  #出差地点
+  State: "完成"
+
+log:
+  level: 'info'
+  root_dir: './logs'
+  filename: 'app.log'
+  format: ''
+  show_line: true
+  max_backups: 3
+  max_size: 500
+  max_age: 28
+  compress: true
+
+

@@ -1,0 +1,24 @@
+编译命令
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o ads-linux
+CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build -o ads.exe
+CGO_ENABLED=0 GOOS=darwin GOARCH=amd64 go build -o ads-osx
+
+
+work --file ./logs/WorkTemplate202204.txt
+work --gti xxx
+work --close ./logs/workid.log
+
+生成工时模板
+ads work t
+
+创建工作项
+ads work a
+
+关闭工作项
+ads work c
+
+
+
+
+
+
