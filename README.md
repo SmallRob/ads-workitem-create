@@ -2,10 +2,10 @@
 add workitem in ads，azure，which can create workitem and close theme
 
 # how to use
-# make
-CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o ads-linux
-CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build -o ads.exe
-CGO_ENABLED=0 GOOS=darwin GOARCH=amd64 go build -o ads-osx
+# pckage files
+> CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o ads-linux
+> CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build -o ads.exe
+> CGO_ENABLED=0 GOOS=darwin GOARCH=amd64 go build -o ads-osx
 
 # cli
 work --file ./logs/WorkTemplate202204.txt
