@@ -7,12 +7,12 @@ ads:
   iterationscount: 6          #默认返回迭代数量
 
 productitem:
-  title: "中关村银行"
-  areapath: "ProjectManagement\\中关村银行\\中关村2023年"   #ProjectManagement\中关村银行\中关村2023年  ProjectManagement\\SmartIDE
+  title: "XXXBank"
+  areapath: "ProjectManagement\\XXXBank\\2023年"   #ProjectManagement\\SmartCode
   state: "完成"
 
 task:
-  assignedto: "刘嘉宁"
+  assignedto: "Healer"
   originalestimate: "8"   #初始估计
   completedwork: "8"      #已完成工作
   worktype: "客户"         #工时类型    客户,内部
